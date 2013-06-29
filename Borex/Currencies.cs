@@ -10,6 +10,7 @@ namespace Borex
         USD,
         EUR,
         PLN,
-        CZK
+        CZK,
+        JPY
     }
 }
