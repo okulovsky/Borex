@@ -7,7 +7,7 @@ namespace Borex
 {
     public class Account
     {
-        double[] deposits;
+        double[] deposits = new double[5];
         public double this[Currencies Currency]
         {
             get { return deposits[(int)Currency]; }

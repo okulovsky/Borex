@@ -11,7 +11,7 @@ namespace ConsoleApplication1
         {
             var server = new Borex.BorexServer();
             foreach(var e in server.GetRates())
-                Console.WriteLine("{0,-5}{1,7}{2,7}", e.Currency, e.BuyRate, e.SellRate);
+                Console.WriteLine("{0,-5}{1,7}{2,7}", e.Currency, e.ExchangeRate, e.Growth);
             Console.ReadKey();
         }
     }

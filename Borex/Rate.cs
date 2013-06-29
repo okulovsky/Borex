@@ -8,13 +8,13 @@ namespace Borex
     public class Rate
     {
         public readonly Currencies Currency;
-        public readonly double BuyRate;
-        public readonly double SellRate;
-        public Rate(Currencies currency, double buyRate, double sellRate)
+        public readonly double ExchangeRate;
+        public readonly double Growth;
+        public Rate(Currencies currency, double rate, double growth)
         {
             Currency = currency;
-            BuyRate = buyRate;
-            SellRate = sellRate;
+            ExchangeRate = rate;
+            Growth = growth;
         }
     }
 }
