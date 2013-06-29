@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borex", "Borex\Borex.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Cartman", "Client.Cartman\Client.Cartman.csproj", "{B10EAC42-2139-4B19-A71C-713A9B1DB54D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Butters", "Client.Butters\Client.Butters.csproj", "{60388146-7D3A-4ACE-844D-94509331288D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,16 @@ Global
 		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Mixed Platforms.Build.0 = Release|x86
 		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|x86.ActiveCfg = Release|x86
 		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|x86.Build.0 = Release|x86
+		{60388146-7D3A-4ACE-844D-94509331288D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{60388146-7D3A-4ACE-844D-94509331288D}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
