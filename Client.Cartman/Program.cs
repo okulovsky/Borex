@@ -9,8 +9,9 @@ namespace ConsoleApplication1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, world!");
-            Console.ReadKey();
+            var server = new Borex.BorexServer();
+            foreach (var e in server.GetRates())
+                Console.WriteLine("{0,-5}{1,7}{2,7}", e.Currency, e.BuyRate, e.SellRate);
         }
     }
 }

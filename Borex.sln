@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{B10EAC42-2139-4B19-A71C-713A9B1DB54D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Borex", "Borex\Borex.csproj", "{833F6E34-B964-434D-A74F-177A85CD6C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client.Cartman", "Client.Cartman\Client.Cartman.csproj", "{B10EAC42-2139-4B19-A71C-713A9B1DB54D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,16 +15,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|x86.ActiveCfg = Debug|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|x86.Build.0 = Debug|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Any CPU.ActiveCfg = Release|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Mixed Platforms.Build.0 = Release|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|x86.ActiveCfg = Release|x86
-		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|x86.Build.0 = Release|x86
 		{833F6E34-B964-434D-A74F-177A85CD6C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{833F6E34-B964-434D-A74F-177A85CD6C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{833F6E34-B964-434D-A74F-177A85CD6C55}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -35,6 +25,16 @@ Global
 		{833F6E34-B964-434D-A74F-177A85CD6C55}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{833F6E34-B964-434D-A74F-177A85CD6C55}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{833F6E34-B964-434D-A74F-177A85CD6C55}.Release|x86.ActiveCfg = Release|Any CPU
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|x86.ActiveCfg = Debug|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Debug|x86.Build.0 = Debug|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Any CPU.ActiveCfg = Release|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|Mixed Platforms.Build.0 = Release|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|x86.ActiveCfg = Release|x86
+		{B10EAC42-2139-4B19-A71C-713A9B1DB54D}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
