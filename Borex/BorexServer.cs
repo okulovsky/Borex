@@ -13,6 +13,7 @@ namespace Borex
             yield return new Rate(Currencies.EUR, 45, -1);
             yield return new Rate(Currencies.PLN, 11, -1);
             yield return new Rate(Currencies.CZK, 1.6, 0.5);
+            yield return new Rate(Currencies.JPY, 0.3, 0.01);
         }
 
         public void Exchange(Account account, Currencies from, Currencies to, double amount)
