@@ -10,11 +10,13 @@ namespace Borex
         public readonly Currencies Currency;
         public readonly double ExchangeRate;
         public readonly double Growth;
+        public readonly double RelativeGrowth;
         public Rate(Currencies currency, double rate, double growth)
         {
             Currency = currency;
             ExchangeRate = rate;
             Growth = growth;
+            RelativeGrowth = Growth / ExchangeRate;
         }
     }
 }
